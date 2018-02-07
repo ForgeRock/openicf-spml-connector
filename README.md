@@ -25,7 +25,8 @@ Identity Platform to provision to an SPML enabled system.
  develop or fork this repository. See the legal disclaimer bit below.
  
 ## Compatability
-Works with [OpenICF 1.5](https://backstage.forgerock.com/docs/openicf/1.5/release-notes/index.html). Please read the release notes for more information on compatability with Java Connector Servers and version of OpenIDM/IDM.
+Works with [OpenICF 1.5](https://backstage.forgerock.com/docs/openicf/1.5/release-notes/index.html). Please read the 
+release notes for more information on compatability with Java Connector Servers and version of OpenIDM/IDM.
  
 This connector uses `openspml2-toolkit.jar` to connect to SPML 2.0 enabled systems. 
 
@@ -36,9 +37,10 @@ The code in this repository has binary dependencies that live in the ForgeRock m
 
 To get and build this repository you will need a build environment that has git, maven and a JDK installed. 
 
-This has been confirmed as buildin with Maven 3.3.3, Oracle JDK 1.8.0_91. 
+This has been confirmed as building with Maven 3.3.3, Oracle JDK 1.8.0_91. 
 
-The `openspml2-toolkit.jar` file may be found in the `lib` directory and must be installed into your maven repository as shown bellow. The project can then be built with maven.
+The `openspml2-toolkit.jar` file may be found in the `lib` directory and must be installed into your maven repository 
+as shown bellow. The project can then be built with maven.
 
 ```
 $ git clone <repo_url>
